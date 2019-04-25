@@ -2,7 +2,7 @@
 
 ## Topics
 
-1. Client Server architecture 
+1. Client Server architecture
 2. Django
    - Install
    - Create a project
@@ -21,6 +21,13 @@
 * Practical example - Settings Django
 * Practical example - Models, Views, URLs
 * Practical example - Django Admin
+
+django-admin startproject ws3 .
+django-admin startapp core
+python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py makemigrations
 
 
 References:
